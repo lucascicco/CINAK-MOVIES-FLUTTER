@@ -32,22 +32,22 @@ class _MyAppState extends State<MyApp> {
       _filters = filterData;
 
       _availableMovies = DUMMY_MOVIES.where((movie) {
-        if (_filters['fifth'] && movie.age == 18) {
-          return true;
-        }
-        if (_filters['third'] && movie.age >= 16) {
-          return true;
-        }
-        if (_filters['third'] && movie.age >= 14) {
-          return true;
-        }
-        if (_filters['second'] && movie.age >= 12) {
+        if (_filters['fifth'] && movie.age != 18) {
           return false;
         }
-        if (_filters['free'] && movie.age >= 10) {
-          return true;
+        if (_filters['third'] && movie.age > 16) {
+          return false;
         }
-        return false;
+        if (_filters['third'] && movie.age > 14) {
+          return false;
+        }
+        if (_filters['second'] && movie.age > 12) {
+          return false;
+        }
+        if (_filters['free'] && movie.age != 10) {
+          return false;
+        }
+        return true;
       }).toList();
     });
   }
@@ -99,7 +99,7 @@ class _MyAppState extends State<MyApp> {
       routes: {
         '/': (ctx) => TabsScreen(_favoriteMovies),
         CategoryMovieScreen.routeName: (ctx) =>
-            CategoryMovieScreen(_favoriteMovies),
+            CategoryMovieScreen(_availableMovies),
         MovieDetailScreen.routeName: (ctx) =>
             MovieDetailScreen(_toggleFavorite, _isMovieFavorite),
         FiltersScreen.routeName: (ctx) => FiltersScreen(_filters, _setFilters),
