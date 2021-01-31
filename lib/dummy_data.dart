@@ -192,4 +192,80 @@ const DUMMY_MOVIES = const [
       age: 10,
       description:
           "O Mágico de Oz é um filme norte-americano, dos gêneros fantasia, musical de família, lançado em 1939 pela Metro-Goldwyn-Mayer, baseado no livro The Wonderful Wizard of Oz de L. Frank Baum. Dirigido parcialmente por Victor Fleming (que deixou a produção para dirigir Gone with the Wind), com a produção de Mervyn LeRoy e roteiro escrito pelo trio: Noel Langley, Florence Ryerson e Edgar Allan Woolf. Contando com as atuações de Judy Garaland, Frank Morgan, Ray Bolger, Bert Lahr, Jack Haley, Billie Burk, Margaret Hamilton e Charley Grapewin que estrelam este filme que conta a história de uma garota órfã chamada Dorothy Gale que após entrar em um ciclone viaja para a Terra de Oz e tenta achar o caminho de volta para sua casa."),
+  Movie(
+      id: 'm7',
+      categories: ['c1', 'c3', 'c5'],
+      title: 'O Irlandês',
+      imageUrl:
+          'https://upload.wikimedia.org/wikipedia/pt/d/da/The_Irishman_p%C3%B4ster.png',
+      duration: 209,
+      actors: [
+        'Robert De Niro',
+        'Al Pacino',
+        ' Joe Pesci',
+        'Harvey Keitel',
+        'Ray Romano',
+        'Bobby Cannavale',
+        'Stephen Graham',
+      ],
+      age: 16,
+      description:
+          "O Irlandês é um filme americano de 2019, do gênero drama biográfico-policial, dirigido por Martin Scorsese, com roteiro de Steven Zaillian baseado no livro de memórias I Heard You Paint Houses, do investigador e advogado Charles Brandt. The Irishman relata a história de Frank 'The Irishman' Sheeran, sindicalista ligado ao crime organizado que, pouco antes de morrer, em 2003, confessou ter assassinado o líder sindical Jimmy Hoffa, desaparecido em 1975. Estrelado por Robert De Niro, Al Pacino e Joe Pesci, o filme segue a história de Sheeran enquanto ele relata seus supostos trabalhos como mercenário para a família criminosa Bufalino. É a nona colaboração entre De Niro e Scorsese, sendo a primeira desde Casino, em 1995; o quarto filme a estrelar De Niro e Pacino (após The Godfather Part II, Heat e Righteous Kill); o quinto a estrelar De Niro e Pesci (após Raging Bull, Once Upon a Time in America, Goodfellas e Casino); o primeiro a estrelar Pacino e Pesci juntos; e a primeira vez em que Scorsese dirige Pacino."),
+  Movie(
+      id: 'm8',
+      categories: ['c9', 'c1', 'c4', 'c3'],
+      title: 'Infiltrado na Klan',
+      imageUrl:
+          'https://upload.wikimedia.org/wikipedia/pt/d/d5/BlacKkKlansman.png',
+      duration: 135,
+      actors: [
+        'John David Washington',
+        'Adam Driver',
+        'Laura Harrier',
+        'Topher Grace',
+      ],
+      age: 14,
+      description:
+          "Infiltrado na Klan é um filme estadunidense de 2018, dos gêneros drama biográfico-policial e suspense, dirigido por Spike Lee, com roteiro dele, Charlie Wachtel, David Rabinowitz e Kevin Wilmott baseado no livro autobiográfico Black Klansman: Race, Hate, and the Undercover Investigation of a Lifetime, de Ron Stallworth. Estrelado por John David Washington, Adam Driver, Laura Harrier e Topher Grace, o filme tem sua trama ambientada no Colorado em 1972, e conta a história dum detetive afro-americano que se infiltra na Ku Klux Klan para expor seus crimes."),
+  Movie(
+      id: 'm9',
+      categories: [
+        'c10',
+        'c9',
+      ],
+      title: 'Corra!',
+      imageUrl:
+          'https://upload.wikimedia.org/wikipedia/pt/0/02/Get_Out_2017.png',
+      duration: 103,
+      actors: [
+        'Daniel Kaluuya',
+        'Allison Williams',
+        'Bradley Whitford',
+        'Caleb Landry Jones',
+        'Stephen Root',
+        'Lakeith Stanfield',
+        'Catherine Keener'
+      ],
+      age: 14,
+      description:
+          "Mais um do Jordan Peele - e, agora, o filme que o lançou na carreira de diretor. Em Corra!, Chris, um jovem negro, vai conhecer a família da namorada branca, Rose. Eles vão passar o fim de semana na casa de campo dos pais da jovem, que, a princípio, parecem simpáticos, mas que em breve se revelam estranhos e racistas. Com forte crítica ao racismo, Corra! levou o Oscar de melhor roteiro original, escrito por Peele."),
+  Movie(
+      id: 'm10',
+      categories: ['c1', 'c8', 'c3'],
+      title: 'Casablanca',
+      imageUrl:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Wizard_of_oz_movie_poster.jpg/365px-Wizard_of_oz_movie_poster.jpghttps://upload.wikimedia.org/wikipedia/pt/e/e4/Casablanca-P%C3%B4ster.jpg',
+      duration: 102,
+      actors: [
+        'Humphrey Bogart',
+        'Ingrid Bergman',
+        'Paul Henreid',
+        'Claude Rains',
+        'Conrad Veidt',
+        'Sydney Greenstreet',
+        'Peter Lorre'
+      ],
+      age: 12,
+      description:
+          "Mais um clássico que quebra um ranking bem moderno! Vencedor de três Oscar (melhor filme, direção e roteiro), o filme se passa em Casablanca, no Marrocos, durante a Segunda Guerra Mundial. O americano Rick comanda a casa noturna de maior sucesso na cidade. Em uma noite, ele se vê diante de um grande dilema: ajudar, ou não, sua ex-amante e o atual marido dela a fugirem do Marrocos."),
 ];

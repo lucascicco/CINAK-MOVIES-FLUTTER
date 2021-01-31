@@ -29,12 +29,19 @@ class CategoryItem extends StatelessWidget {
         padding: const EdgeInsets.all(15),
         child: Column(
           children: [
-            Text(title,
-                style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold)),
-            Image.asset('assets/images/movie.png', width: 100, height: 100)
+            Expanded(
+              child: Text(title,
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold)),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Image.asset('assets/images/movie.png', width: 40, height: 40),
+              ],
+            )
           ],
         ),
         decoration: BoxDecoration(
