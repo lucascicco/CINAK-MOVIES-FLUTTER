@@ -180,7 +180,7 @@ const DUMMY_MOVIES = const [
       ],
       title: 'O Mágico de Oz',
       imageUrl:
-          'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Wizard_of_oz_movie_poster.jpg/365px-Wizard_of_oz_movie_poster.jpg',
+          'https://s2.glbimg.com/q7BKzEx0y8OwqiGHozFMxen1tu4=/e.glbimg.com/og/ed/f/original/2019/09/18/the-wizard-of-oz.jpg',
       duration: 101,
       actors: [
         'Judy Garland',
@@ -254,7 +254,7 @@ const DUMMY_MOVIES = const [
       categories: ['c1', 'c8', 'c3'],
       title: 'Casablanca',
       imageUrl:
-          'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Wizard_of_oz_movie_poster.jpg/365px-Wizard_of_oz_movie_poster.jpghttps://upload.wikimedia.org/wikipedia/pt/e/e4/Casablanca-P%C3%B4ster.jpg',
+          'https://images-na.ssl-images-amazon.com/images/I/51k9jTBNDlL._AC_.jpg',
       duration: 102,
       actors: [
         'Humphrey Bogart',
