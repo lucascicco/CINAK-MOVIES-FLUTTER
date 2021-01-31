@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../widgets/movie_item.dart';
 import '../models/movie.dart';
-import '../dummy_data.dart';
 
 class CategoryMovieScreen extends StatefulWidget {
   static const routeName = '/category-movies';

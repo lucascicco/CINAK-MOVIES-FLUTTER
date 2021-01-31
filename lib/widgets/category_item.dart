@@ -27,16 +27,21 @@ class CategoryItem extends StatelessWidget {
       borderRadius: BorderRadius.circular(5),
       child: Container(
         padding: const EdgeInsets.all(15),
-        child: Text(title,
-            style: TextStyle(
-                color: Colors.white,
-                fontSize: 20,
-                fontWeight: FontWeight.bold)),
+        child: Column(
+          children: [
+            Text(title,
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold)),
+            Image.asset('assets/images/movie.png', width: 100, height: 100)
+          ],
+        ),
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [
-              color.withOpacity(0.7),
-              color,
+              Colors.blueGrey[800],
+              Colors.white,
             ],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
