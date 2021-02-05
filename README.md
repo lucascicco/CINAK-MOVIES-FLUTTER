@@ -6,7 +6,7 @@ As rotas são configuradas dentro do **MaterialApp** no arquivo main.dart que é
 Movies application developed in Flutter with the aim of showing the available films by categories and age filters, with each film in its details, the actors participating in the film and the description. The application has multiple screens and allows navigation between them as the main focus of the application's development.
 The routes are configured inside the **MaterialApp** in the main.dart file that is compiled when running the emulator. Recalling that, the films inserted in the application are part of a "DUMMY_DATA" that are data already ready for testing. 
 
-## SCREENSHOTS - CAPTURA DE TELAS
+## SCREENSHOTS - CAPTURAS DE TELA
 
 <p align=center> 
     <span>
